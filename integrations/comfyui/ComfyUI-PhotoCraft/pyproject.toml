@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-photocraft"
+description = "ComfyUI nodes that run PhotoCraft (headless photocraft-cli): Image Size, Canvas Size, Crop, Trim, Rotate/Flip, Remove Background and any engine command."
+version = "0.1.0"
+license = { text = "MIT OR Apache-2.0" }
+dependencies = ["numpy", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/mirifiuto135-debug/ale_photocraft"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "PhotoCraft"
+Icon = ""

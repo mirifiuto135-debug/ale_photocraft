@@ -239,6 +239,8 @@ photocraft-cli batch --help
 photocraft-cli mcp
 ```
 
+ComfyUI users get the same commands as nodes: [`integrations/comfyui/`](integrations/comfyui/README.md) wraps `photocraft-cli` as PhotoCraft Image Size, Canvas Size, Crop, Trim, Rotate/Flip, Remove Background and a run-any-command node.
+
 The desktop app also offers an authenticated, loopback-only control channel (`photocraft --control`) for inspecting UI state, driving tools with pointer events, and taking offscreen screenshots. Every image in this README was rendered that way. See [`docs/control-protocol.md`](docs/control-protocol.md).
 
 ## Under the hood
